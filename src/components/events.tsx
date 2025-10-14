@@ -1,6 +1,5 @@
 import { Calendar, Clock, MapPin, Users } from "lucide-react"
 import { Card, CardContent } from "./../components/ui/card"
-import { Button } from "./../components/ui/button"
 
 export function Events() {
   const events = [
