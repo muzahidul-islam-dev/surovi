@@ -1,15 +1,11 @@
 "use client"
 
-import { Button } from "./../components/ui/button"
-import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react"
-import {Link} from 'react-router-dom'
+import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useState, useEffect } from "react"
 
 const slides = [
   {
-    title: "Together, we can change lives",
-    description:
-      "Every donation brings hope, education, and opportunity to communities in need. Join us in making a lasting difference.",
+    title: "শিক্ষার্থীদের মাঝে  ডাঃ জুবাইদা রহমান।",
     image: "/children-studying-in-classroom.jpg",
     cta: "Start Giving Today",
   },
@@ -63,34 +59,8 @@ export function Hero() {
                 backgroundImage: `url('${slide.image}')`,
               }}
             >
-              <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/40" />
             </div>
 
-            <div className="container relative h-full flex items-center">
-              <div className="max-w-2xl">
-                <h1 className="text-balance text-4xl font-bold tracking-tight text-foreground sm:text-5xl md:text-6xl lg:text-7xl">
-                  {slide.title}
-                </h1>
-                <p className="mt-6 max-w-xl text-pretty text-lg leading-relaxed text-muted-foreground md:text-xl">
-                  {slide.description}
-                </p>
-                <div className="mt-10 flex flex-col sm:flex-row items-start gap-4">
-                  <Button
-                    asChild
-                    size="lg"
-                    className="bg-secondary text-secondary-foreground hover:bg-secondary/90 text-base"
-                  >
-                    <Link to="#donate">
-                      {slide.cta}
-                      <ArrowRight className="ml-2 h-5 w-5" />
-                    </Link>
-                  </Button>
-                  <Button asChild size="lg" variant="outline" className="text-base bg-background/50 backdrop-blur-sm">
-                    <Link to="#mission">Learn Our Story</Link>
-                  </Button>
-                </div>
-              </div>
-            </div>
           </div>
         ))}
 

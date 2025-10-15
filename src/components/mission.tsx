@@ -37,7 +37,7 @@ export function Mission() {
             </div>
           </div>
 
-          <div className="relative h-[400px] lg:h-[600px] rounded-2xl overflow-hidden">
+          <div className="relative h-[400px] lg:h-[600px] rounded-2xl overflow-hidden flex items-center">
             <img
               src="/diverse-group-of-happy-children-in-a-classroom-lea.jpg"
               alt="Children learning in classroom"

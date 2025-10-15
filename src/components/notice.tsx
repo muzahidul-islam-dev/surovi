@@ -31,7 +31,7 @@ export function Notice() {
       title: "Monthly Newsletter",
       description: "Subscribe to our newsletter for updates on our projects, success stories, and upcoming events.",
       date: "Posted 3 weeks ago",
-      priority: "low",
+      priority: "medium",
     },
   ]
 
