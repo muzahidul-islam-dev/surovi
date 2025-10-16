@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { newsData } from "../../../data/content"
 import { Card } from "../..//ui/card"
 import { Button } from "../..//ui/button"
-import { Calendar, User, ArrowRight, ArrowLeft } from "lucide-react"
+import { Calendar, User, ArrowRight } from "lucide-react"
 
 export default function News() {
   return (
