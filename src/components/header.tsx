@@ -32,13 +32,13 @@ export function Header() {
             our work
           </Link>
           <Link
-            to="#donate"
+            to="/projects"
             className="uppercase text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             Project
           </Link>
           <Link
-            to="#donate"
+            to="/galleries"
             className="uppercase text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             Gallery

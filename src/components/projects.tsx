@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import { Card, CardContent } from "./../components/ui/card"
+import { Button } from "./ui/button"
 
 export function Projects() {
   const projects = [
@@ -77,6 +78,10 @@ export function Projects() {
             )
           })}
         </div>
+        
+          <div className="flex justify-center my-10">
+            <Button className="cursor-pointer" >View All Projects</Button>
+          </div>
       </div>
     </section>
   )

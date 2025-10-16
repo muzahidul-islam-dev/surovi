@@ -75,7 +75,7 @@ export function Events() {
         <div className="grid md:grid-cols-4 gap-8 mx-auto">
           {events.map((event, index) => (
             <Link to={`/event/${event.title}`}>
-              <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow">
+              <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow h-[550px]">
               <img src={event.image || "/placeholder.svg"} alt={event.title} className="w-full h-48 object-cover" />
               <CardContent className="p-6">
                 <h3 className="text-2xl font-bold text-foreground mb-4">{event.title}</h3>
@@ -92,7 +92,7 @@ export function Events() {
                   </div>
                   <div className="flex items-center gap-2 text-muted-foreground">
                     <MapPin className="w-4 h-4 text-primary" />
-                    <span>{event.location}</span>
+                    <span>Location</span>
                   </div>
                   <div className="flex items-center gap-2 text-muted-foreground">
                     <Users className="w-4 h-4 text-primary" />

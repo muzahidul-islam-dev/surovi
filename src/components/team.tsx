@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 const teamMembers = [
@@ -42,25 +43,27 @@ export function Team() {
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {teamMembers.map((member) => (
-            <div
-              key={member.name}
-              className="group relative overflow-hidden rounded-lg bg-card transition-all hover:shadow-lg"
-            >
-              <div className="aspect-square overflow-hidden">
-                <img
-                  src={member.image || "/placeholder.svg"}
-                  alt={member.name}
-                  width={400}
-                  height={400}
-                  className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                />
+            <Link to={`/team/${member.name}`}>
+              <div
+                key={member.name}
+                className="group relative overflow-hidden rounded-lg bg-card transition-all hover:shadow-lg"
+              >
+                <div className="aspect-square overflow-hidden">
+                  <img
+                    src={member.image || "/placeholder.svg"}
+                    alt={member.name}
+                    width={400}
+                    height={400}
+                    className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  />
+                </div>
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-foreground">{member.name}</h3>
+                  <p className="mt-1 text-sm font-medium text-primary">{member.role}</p>
+                  <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{member.bio}</p>
+                </div>
               </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold text-foreground">{member.name}</h3>
-                <p className="mt-1 text-sm font-medium text-primary">{member.role}</p>
-                <p className="mt-3 text-sm leading-relaxed text-muted-foreground">{member.bio}</p>
-              </div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
