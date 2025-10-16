@@ -1,0 +1,191 @@
+[
+  {
+    "title": "Charity Marathon 2025",
+    "description": "Run for a cause! All proceeds go directly to our education programs.",
+    "date": "2025-07-04",
+    "time": "6:00 AM - 12:00 PM",
+    "city": "City Stadium",
+    "attending": 200,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Green Earth Cleanup Drive",
+    "description": "Join hands to clean our parks and plant new trees for a greener city.",
+    "date": "2025-04-22",
+    "time": "8:00 AM - 1:00 PM",
+    "city": "Central Park",
+    "attending": 150,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Food for All Campaign",
+    "description": "Distribute food packages to underprivileged families in our community.",
+    "date": "2025-05-10",
+    "time": "10:00 AM - 4:00 PM",
+    "city": "Community Hall",
+    "attending": 300,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Blood Donation Day",
+    "description": "Donate blood and help save lives. Every drop counts!",
+    "date": "2025-06-14",
+    "time": "9:00 AM - 3:00 PM",
+    "city": "Red Cross Center",
+    "attending": 120,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Youth Empowerment Workshop",
+    "description": "A one-day event to inspire and train young leaders for a better tomorrow.",
+    "date": "2025-08-02",
+    "time": "9:30 AM - 5:00 PM",
+    "city": "Innovation Hub",
+    "attending": 180,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Cultural Heritage Festival",
+    "description": "Celebrate our traditions with music, food, and art performances.",
+    "date": "2025-09-10",
+    "time": "3:00 PM - 10:00 PM",
+    "city": "Riverside Park",
+    "attending": 500,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Women's Health Awareness Walk",
+    "description": "Walk to raise awareness for women's health and wellness programs.",
+    "date": "2025-03-08",
+    "time": "7:00 AM - 11:00 AM",
+    "city": "Downtown Square",
+    "attending": 250,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Back to School Supply Drive",
+    "description": "Collect and distribute school supplies to children in need.",
+    "date": "2025-01-12",
+    "time": "11:00 AM - 5:00 PM",
+    "city": "City Library",
+    "attending": 180,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Community Health Camp",
+    "description": "Free health check-ups and medical advice for all residents.",
+    "date": "2025-02-18",
+    "time": "9:00 AM - 2:00 PM",
+    "city": "Health Center Grounds",
+    "attending": 220,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Holiday Gift Distribution",
+    "description": "Spread joy this holiday season by giving gifts to local children.",
+    "date": "2025-12-20",
+    "time": "10:00 AM - 2:00 PM",
+    "city": "Community Shelter",
+    "attending": 400,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Charity Art Exhibition",
+    "description": "Local artists exhibit their work to raise funds for children’s education.",
+    "date": "2025-11-15",
+    "time": "2:00 PM - 8:00 PM",
+    "city": "City Art Gallery",
+    "attending": 260,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Senior Citizens’ Picnic Day",
+    "description": "A fun day for senior citizens with games, music, and food.",
+    "date": "2025-04-05",
+    "time": "10:00 AM - 3:00 PM",
+    "city": "Sunrise Park",
+    "attending": 130,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Clean Water Awareness Seminar",
+    "description": "Learn about water conservation and sanitation in rural areas.",
+    "date": "2025-05-25",
+    "time": "1:00 PM - 4:00 PM",
+    "city": "City Conference Hall",
+    "attending": 140,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Animal Shelter Support Day",
+    "description": "Volunteer to help care for rescued animals and promote adoption.",
+    "date": "2025-06-01",
+    "time": "9:00 AM - 1:00 PM",
+    "city": "Happy Paws Shelter",
+    "attending": 90,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Disaster Relief Fundraiser",
+    "description": "Help raise emergency funds for victims of recent natural disasters.",
+    "date": "2025-08-30",
+    "time": "5:00 PM - 10:00 PM",
+    "city": "Town Hall",
+    "attending": 350,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Charity Football Match",
+    "description": "Local teams play for charity — all ticket sales go to community aid.",
+    "date": "2025-09-20",
+    "time": "4:00 PM - 8:00 PM",
+    "city": "City Stadium",
+    "attending": 600,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Mental Health Awareness Session",
+    "description": "Expert talks and group discussions on managing stress and anxiety.",
+    "date": "2025-10-05",
+    "time": "9:30 AM - 1:30 PM",
+    "city": "MindWell Center",
+    "attending": 170,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Orphanage Support Program",
+    "description": "Spend a day with children and support their education and meals.",
+    "date": "2025-02-10",
+    "time": "11:00 AM - 4:00 PM",
+    "city": "Hope Home",
+    "attending": 210,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Tech for Good Hackathon",
+    "description": "Develop innovative tech solutions to solve real-world community problems.",
+    "date": "2025-11-01",
+    "time": "8:00 AM - 8:00 PM",
+    "city": "Innovation Hub",
+    "attending": 320,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Tree Plantation Week",
+    "description": "A full week dedicated to planting trees in schools and public parks.",
+    "date": "2025-07-20",
+    "time": "8:00 AM - 12:00 PM",
+    "city": "Various Locations",
+    "attending": 450,
+    "image": "/community-cleanup-volunteers.png"
+  },
+  {
+    "title": "Charity Music Night",
+    "description": "Enjoy live performances while raising funds for healthcare programs.",
+    "date": "2025-10-25",
+    "time": "6:00 PM - 11:00 PM",
+    "city": "City Auditorium",
+    "attending": 500,
+    "image": "/community-cleanup-volunteers.png"
+  }
+]

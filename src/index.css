@@ -141,7 +141,9 @@
 .container{
   max-width: 1500px;
   margin: auto;
-  padding: 0 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
 }
 
                     

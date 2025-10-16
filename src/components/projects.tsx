@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Card, CardContent } from "./../components/ui/card"
 
 export function Projects() {
@@ -53,24 +54,26 @@ export function Projects() {
         <div className="grid md:grid-cols-4 gap-8 mx-auto">
           {projects.map((project, index) => {
             return (
-              <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow">
-                <img
-                  src={project.image || "/placeholder.svg"}
-                  alt={project.title}
-                  className="w-full h-56 object-cover"
-                />
-                <CardContent className="">
-                  <div className="mb-2">
-                    <span className="text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-full">
-                      {project.location}
-                    </span>
-                  </div>
+              <Link to={`/project/${project.title}`}>
+                <Card key={index} className="overflow-hidden hover:shadow-xl transition-shadow">
+                  <img
+                    src={project.image || "/placeholder.svg"}
+                    alt={project.title}
+                    className="w-full h-56 object-cover"
+                  />
+                  <CardContent className="">
+                    <div className="mb-2">
+                      <span className="text-sm font-medium text-primary bg-primary/10 px-3 py-1 rounded-full">
+                        {project.location}
+                      </span>
+                    </div>
 
-                  <h3 className="text-2xl font-bold text-foreground mb-3">{project.title}</h3>
+                    <h3 className="text-2xl font-bold text-foreground mb-3">{project.title}</h3>
 
-                  <p className="text-muted-foreground mb-6">{project.description}</p>
-                </CardContent>
-              </Card>
+                    <p className="text-muted-foreground mb-6">{project.description}</p>
+                  </CardContent>
+                </Card>
+              </Link>
             )
           })}
         </div>
