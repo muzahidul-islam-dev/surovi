@@ -3,7 +3,7 @@
 import { useParams, Link } from "react-router-dom"
 import { Button } from "../../ui/button"
 import { Progress } from "../../ui/progress"
-import { ArrowLeft, MapPin, Calendar, Users, CheckCircle } from "lucide-react"
+import { MapPin, Calendar, Users, CheckCircle } from "lucide-react"
 
 export default function ProjectDetails() {
     const projects = [
