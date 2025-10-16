@@ -3,7 +3,7 @@
 import { Link } from "react-router-dom"
 // import { teamData } from "../../../data/content"
 import { Button } from "../../ui/button"
-import { Mail, Linkedin, ArrowLeft, CheckCircle } from "lucide-react"
+import { Mail, Linkedin, CheckCircle } from "lucide-react"
 
 export default function SingleTeam() {
 //   const { id } = useParams()
