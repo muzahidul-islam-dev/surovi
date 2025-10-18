@@ -3,29 +3,17 @@ import { Link } from "react-router-dom"
 
 const teamMembers = [
   {
-    name: "Sarah Johnson",
-    role: "Executive Director",
-    image: "/professional-woman-smiling.png",
-    bio: "With 15 years of nonprofit experience, Sarah leads our mission to create lasting change in communities worldwide.",
+    name: "Syeda Iqbal Mand Banu",
+    role: "Founder Chairperson",
+    image: "/founder.jpg",
+    bio: "পিতা মরহুম সৈয়াদ নুরুল আবসার ছিলেন একজন বিশিষ্ট ব্যবসায়ী। সৈয়দা ইকবাল মান্দ বানু শৈশবকাল থেকেই নিপীড়িত, অসহায় মানুষের সেবা করে যাচ্ছেন। বাংলাদেশের আনাচে কানাচে ৬৮ হাজার গ্রামের গ্রামান্তরে, শহরের বহু হাসপাতালে, পথে প্রান্তরে ছড়িয়ে আছে তার সাহায্যের ছোয়া।"
   },
   {
-    name: "Michael Chen",
+    name: "Md. Abu Taher",
     role: "Director of Programs",
-    image: "/professional-man-smiling.png",
-    bio: "Michael oversees our global initiatives, ensuring every project delivers measurable impact and sustainable results.",
-  },
-  {
-    name: "Emily Rodriguez",
-    role: "Community Outreach Manager",
-    image: "/professional-woman-portrait.png",
-    bio: "Emily builds bridges between donors and communities, sharing stories that inspire action and foster connection.",
-  },
-  {
-    name: "David Okonkwo",
-    role: "Finance Director",
-    image: "/professional-man-portrait.png",
-    bio: "David ensures transparency and accountability, managing resources to maximize impact for every dollar donated.",
-  },
+    image: "/director.jpg",
+    bio: "Md. Abu Taher has been working with SUROVI since 1981. He has a total of 43 years’ professional experience of which 43 years in senior management positions in development sector including organizational development, project planning and management",
+  }
 ]
 
 export function Team() {

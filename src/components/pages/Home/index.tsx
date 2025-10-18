@@ -17,6 +17,7 @@ function Home() {
     <>
             <Hero />
             <NewsTicker />
+            <Team />
             <Impact />
             <Notice />
             <Mission />
@@ -25,7 +26,6 @@ function Home() {
             <News />
             <WaysToHelp />
             <Stories />
-            <Team />
             <Contact />
             <DonateSection />
     </>
