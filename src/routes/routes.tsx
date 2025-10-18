@@ -8,6 +8,8 @@ import { EventDetailPage } from "../components/pages/EventDetails";
 import SingleTeam from "../components/pages/SingleTeam";
 import Projects from "../components/pages/Projects";
 import { Galleries } from "../components/Galleries";
+import Works from "../components/pages/Works";
+import About from "../components/pages/About";
 
 const routes = createBrowserRouter([
 
@@ -46,6 +48,14 @@ const routes = createBrowserRouter([
       {
         path: '/galleries',
         element: <Galleries />
+      },
+      {
+        path: '/works',
+        element: <Works />
+      },
+      {
+        path: '/about',
+        element: <About />
       }
     ]
   }

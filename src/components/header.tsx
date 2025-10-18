@@ -20,13 +20,13 @@ export function Header() {
             Home
           </Link>
           <Link
-            to="#impact"
+            to="/about"
             className="uppercase text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             Who we are
           </Link>
           <Link
-            to="#stories"
+            to="/works"
             className="uppercase text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
           >
             our work
